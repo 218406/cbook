@@ -1,0 +1,103 @@
+
+@layout("Books"){
+
+  <section class="main-section text-center text-pad bg-gray">
+    <div class="heading-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <div class="section-heading">
+                <h2>Books available to you after payment</h2>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+            <div class="boxed-white">
+              <div class="inner">
+                <h4>Advanced High-School Mathematics</h4>
+                <h5> David B. Surowski, Shanghai American School, Singapore American School, January 29, 2011. Task Book</h5>
+                <img src="@routes.Assets.versioned("images/further.png")" width="200" height="200" />
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="boxed-white">
+              <div class="inner">
+                <h4>Introduction to real analysis</h4>
+                <h5>William F. Trench Andrew G. Cowles Distinguished Professor Emeritus, Department of Mathematics, Trinity University, San Antonio, Texas, USA</h5>
+                <img src="@routes.Assets.versioned("images/analysis.png")" width="200" height="200" />
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="boxed-white">
+              <div class="inner">
+                <h4>French from Wikibooks</h4>
+                <h5>The current editable version of this book is available at Wikibooks, the open content textbooks collection, at http://en.eikibooks.org/wiki/French </h5>
+                <img src="@routes.Assets.versioned("images/french.png")" width="200" height="200" />
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="boxed-white">
+              <div class="inner">
+                <h4>Spanish by Wikibooks contributors</h4>
+                <h5>Developed on Wikibooks the open-content textbooks collection</h5>
+                <img src="@routes.Assets.versioned("images/spanish.png")" width="200" height="200" />
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="boxed-white">
+              <div class="inner">
+                <h4>Basic and Advanced Algebra</h4>
+                <h5>Published by the Author East Setauket, New York</h5>
+                <img src="@routes.Assets.versioned("images/algevbra.png")" width="200" height="200" />
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="boxed-white">
+              <div class="inner">
+                <h4>Introduction to Computing</h4>
+                <h5>Exploration in Language, Logic, and Machines</h5>
+                <img src="@routes.Assets.versioned("images/computing.png")" width="200" height="200" />
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-distributed">
+
+    <div class="footer-right">
+      <a href="https://www.facebook.com/Stud-Books-224985358088249/"><img src="@routes.Assets.versioned("images/fb.png")" width="40" height="40" /></a>
+    </div>
+
+    <div class="footer-left">
+
+      <p class="footer-links">
+        <a href="@routes.HomeController.index()">HOME</a>
+
+        <a href="@routes.HomeController.books()">BOOKS</a>
+
+        <a href="@routes.HomeController.about()">ABOUT</a>
+      </p>
+
+      <p>Stud-Books &copy; 2018</p>
+    </div>
+
+  </footer>
+
+
+}

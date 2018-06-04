@@ -1,0 +1,53 @@
+
+@layout("About"){
+    <div class="container text-pad">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>About Us</h2>
+            <hr class="marginbot-50">
+            <p>We are Stud-Books Team. Our books unite us as a world community. We impact all students globally. We believe in knowledge and
+            education that moves and impacts whole world.</p>
+            <p>We want to provide, fair and sustainable future.</p>
+        </br>
+        </br>
+            <h2>Check out the Books!</h2>
+        </div>
+        <div class="col-lg-6">
+            <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+            <img src="@routes.Assets.versioned("images/openbook.jpg")" width="750" height="450" />
+        </div>
+
+
+        <section class="partnership">
+            <h2> Our Partnership</h2>
+            <hr class="marginbot-30">
+        </br>
+            <img src="@routes.Assets.versioned("images/uor.png")" width="200" height="200" />
+            <img src="@routes.Assets.versioned("images/uow.png")" width="200" height="200" />
+        </section>
+    </div>
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+            <a href="https://www.facebook.com/Stud-Books-224985358088249/"><img src="@routes.Assets.versioned("images/fb.png")" width="40" height="40" /></a>
+        </div>
+
+
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a href="@routes.HomeController.index()">HOME</a>
+
+                <a href="@routes.HomeController.books()">BOOKS</a>
+
+                <a href="@routes.HomeController.about()">ABOUT</a>
+            </p>
+
+            <p>Stud-Books &copy; 2018</p>
+        </div>
+
+    </footer>
+
+}
